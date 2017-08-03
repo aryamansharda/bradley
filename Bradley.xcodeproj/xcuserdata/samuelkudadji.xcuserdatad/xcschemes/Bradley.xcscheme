@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5796E3071EEB6B93005E4207"
-               BuildableName = "Bradley.app"
+               BuildableName = "Traveliqy.app"
                BlueprintName = "Bradley"
                ReferencedContainer = "container:Bradley.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5796E3071EEB6B93005E4207"
-            BuildableName = "Bradley.app"
+            BuildableName = "Traveliqy.app"
             BlueprintName = "Bradley"
             ReferencedContainer = "container:Bradley.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5796E3071EEB6B93005E4207"
-            BuildableName = "Bradley.app"
+            BuildableName = "Traveliqy.app"
             BlueprintName = "Bradley"
             ReferencedContainer = "container:Bradley.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5796E3071EEB6B93005E4207"
-            BuildableName = "Bradley.app"
+            BuildableName = "Traveliqy.app"
             BlueprintName = "Bradley"
             ReferencedContainer = "container:Bradley.xcodeproj">
          </BuildableReference>

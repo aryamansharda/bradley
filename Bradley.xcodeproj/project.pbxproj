@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3102F4FB66383BFC5386B432 /* Pods_Bradley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A49C7A6EA48FD70B9A79C2 /* Pods_Bradley.framework */; };
+		57166E4F1EEBF6E9005B9803 /* DirtyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E4E1EEBF6E8005B9803 /* DirtyVC.swift */; };
+		57166E511EEBFD21005B9803 /* DCEll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E501EEBFD21005B9803 /* DCEll.swift */; };
+		57166E531EED4B6B005B9803 /* ComVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E521EED4B6B005B9803 /* ComVC.swift */; };
+		57166E551EED4DB0005B9803 /* ComCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E541EED4DB0005B9803 /* ComCell.swift */; };
+		57166E571EEE84C3005B9803 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E561EEE84C3005B9803 /* ProfileVC.swift */; };
+		57166E591EEEBFA9005B9803 /* CollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E581EEEBFA9005B9803 /* CollCell.swift */; };
+		57166E5B1EEF014E005B9803 /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57166E5A1EEF014E005B9803 /* AddVC.swift */; };
 		5796E30C1EEB6B93005E4207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E30B1EEB6B93005E4207 /* AppDelegate.swift */; };
 		5796E30E1EEB6B93005E4207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E30D1EEB6B93005E4207 /* ViewController.swift */; };
 		5796E3111EEB6B94005E4207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5796E30F1EEB6B94005E4207 /* Main.storyboard */; };
@@ -14,6 +22,11 @@
 		5796E3161EEB6B94005E4207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5796E3141EEB6B94005E4207 /* LaunchScreen.storyboard */; };
 		5796E3211EEB6B95005E4207 /* BradleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E3201EEB6B95005E4207 /* BradleyTests.swift */; };
 		5796E32C1EEB6B95005E4207 /* BradleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E32B1EEB6B95005E4207 /* BradleyUITests.swift */; };
+		5796E33A1EEB6CA1005E4207 /* ExtraBradleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E3391EEB6CA0005E4207 /* ExtraBradleys.swift */; };
+		5796E33C1EEB6CE9005E4207 /* BradleyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E33B1EEB6CE9005E4207 /* BradleyVC.swift */; };
+		5796E33E1EEB76C2005E4207 /* CellBrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796E33D1EEB76C2005E4207 /* CellBrad.swift */; };
+		82B3A572EA40A07F78C28751 /* Pods_BradleyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C330279502017E122EAD3738 /* Pods_BradleyUITests.framework */; };
+		F20D795421BDDC84B30BAA6C /* Pods_BradleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62BBA7A71795005DCE17D02 /* Pods_BradleyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5796E3081EEB6B93005E4207 /* Bradley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bradley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E36FE4211FF67136894964 /* Pods-BradleyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BradleyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BradleyTests/Pods-BradleyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A49C7A6EA48FD70B9A79C2 /* Pods_Bradley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bradley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51539A056995F6859FC6F5B9 /* Pods-BradleyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BradleyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BradleyTests/Pods-BradleyTests.release.xcconfig"; sourceTree = "<group>"; };
+		57166E4E1EEBF6E8005B9803 /* DirtyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirtyVC.swift; sourceTree = "<group>"; };
+		57166E501EEBFD21005B9803 /* DCEll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCEll.swift; sourceTree = "<group>"; };
+		57166E521EED4B6B005B9803 /* ComVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComVC.swift; sourceTree = "<group>"; };
+		57166E541EED4DB0005B9803 /* ComCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComCell.swift; sourceTree = "<group>"; };
+		57166E561EEE84C3005B9803 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		57166E581EEEBFA9005B9803 /* CollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollCell.swift; sourceTree = "<group>"; };
+		57166E5A1EEF014E005B9803 /* AddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		5796E3081EEB6B93005E4207 /* Traveliqy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traveliqy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5796E30B1EEB6B93005E4207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5796E30D1EEB6B93005E4207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5796E3101EEB6B94005E4207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,15 @@
 		5796E3271EEB6B95005E4207 /* BradleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BradleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5796E32B1EEB6B95005E4207 /* BradleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradleyUITests.swift; sourceTree = "<group>"; };
 		5796E32D1EEB6B95005E4207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5796E3391EEB6CA0005E4207 /* ExtraBradleys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraBradleys.swift; sourceTree = "<group>"; };
+		5796E33B1EEB6CE9005E4207 /* BradleyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BradleyVC.swift; sourceTree = "<group>"; };
+		5796E33D1EEB76C2005E4207 /* CellBrad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellBrad.swift; sourceTree = "<group>"; };
+		6500B5E756CBB015CA6726B0 /* Pods-BradleyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BradleyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BradleyUITests/Pods-BradleyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF1A10AEBF2D7EE18AB1BFDD /* Pods-Bradley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bradley.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bradley/Pods-Bradley.release.xcconfig"; sourceTree = "<group>"; };
+		C330279502017E122EAD3738 /* Pods_BradleyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BradleyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D230A624EB0A57BEBC4067C6 /* Pods-BradleyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BradleyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BradleyUITests/Pods-BradleyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E62BBA7A71795005DCE17D02 /* Pods_BradleyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BradleyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF577201A776DEA99AF5A611 /* Pods-Bradley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bradley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bradley/Pods-Bradley.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3102F4FB66383BFC5386B432 /* Pods_Bradley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20D795421BDDC84B30BAA6C /* Pods_BradleyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B3A572EA40A07F78C28751 /* Pods_BradleyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +116,15 @@
 				5796E31F1EEB6B95005E4207 /* BradleyTests */,
 				5796E32A1EEB6B95005E4207 /* BradleyUITests */,
 				5796E3091EEB6B93005E4207 /* Products */,
+				5B4933853BBE73EF573EB815 /* Pods */,
+				FD8162FF346A9FA381B0BD0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5796E3091EEB6B93005E4207 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5796E3081EEB6B93005E4207 /* Bradley.app */,
+				5796E3081EEB6B93005E4207 /* Traveliqy.app */,
 				5796E31C1EEB6B94005E4207 /* BradleyTests.xctest */,
 				5796E3271EEB6B95005E4207 /* BradleyUITests.xctest */,
 			);
@@ -99,6 +136,16 @@
 			children = (
 				5796E30B1EEB6B93005E4207 /* AppDelegate.swift */,
 				5796E30D1EEB6B93005E4207 /* ViewController.swift */,
+				5796E33B1EEB6CE9005E4207 /* BradleyVC.swift */,
+				57166E4E1EEBF6E8005B9803 /* DirtyVC.swift */,
+				57166E521EED4B6B005B9803 /* ComVC.swift */,
+				57166E561EEE84C3005B9803 /* ProfileVC.swift */,
+				57166E5A1EEF014E005B9803 /* AddVC.swift */,
+				5796E3391EEB6CA0005E4207 /* ExtraBradleys.swift */,
+				5796E33D1EEB76C2005E4207 /* CellBrad.swift */,
+				57166E501EEBFD21005B9803 /* DCEll.swift */,
+				57166E541EED4DB0005B9803 /* ComCell.swift */,
+				57166E581EEEBFA9005B9803 /* CollCell.swift */,
 				5796E30F1EEB6B94005E4207 /* Main.storyboard */,
 				5796E3121EEB6B94005E4207 /* Assets.xcassets */,
 				5796E3141EEB6B94005E4207 /* LaunchScreen.storyboard */,
@@ -125,6 +172,29 @@
 			path = BradleyUITests;
 			sourceTree = "<group>";
 		};
+		5B4933853BBE73EF573EB815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF577201A776DEA99AF5A611 /* Pods-Bradley.debug.xcconfig */,
+				AF1A10AEBF2D7EE18AB1BFDD /* Pods-Bradley.release.xcconfig */,
+				11E36FE4211FF67136894964 /* Pods-BradleyTests.debug.xcconfig */,
+				51539A056995F6859FC6F5B9 /* Pods-BradleyTests.release.xcconfig */,
+				6500B5E756CBB015CA6726B0 /* Pods-BradleyUITests.debug.xcconfig */,
+				D230A624EB0A57BEBC4067C6 /* Pods-BradleyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD8162FF346A9FA381B0BD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A49C7A6EA48FD70B9A79C2 /* Pods_Bradley.framework */,
+				E62BBA7A71795005DCE17D02 /* Pods_BradleyTests.framework */,
+				C330279502017E122EAD3738 /* Pods_BradleyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5796E3301EEB6B95005E4207 /* Build configuration list for PBXNativeTarget "Bradley" */;
 			buildPhases = (
+				F86A3B50A173E82B7A9E5A3E /* [CP] Check Pods Manifest.lock */,
 				5796E3041EEB6B93005E4207 /* Sources */,
 				5796E3051EEB6B93005E4207 /* Frameworks */,
 				5796E3061EEB6B93005E4207 /* Resources */,
+				B173A48C4ECE638E85417CB4 /* [CP] Embed Pods Frameworks */,
+				1692EF227E59E7033709EAF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,16 +215,19 @@
 			);
 			name = Bradley;
 			productName = Bradley;
-			productReference = 5796E3081EEB6B93005E4207 /* Bradley.app */;
+			productReference = 5796E3081EEB6B93005E4207 /* Traveliqy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5796E31B1EEB6B94005E4207 /* BradleyTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5796E3331EEB6B95005E4207 /* Build configuration list for PBXNativeTarget "BradleyTests" */;
 			buildPhases = (
+				E0C41C5AD0D635371F2D77E1 /* [CP] Check Pods Manifest.lock */,
 				5796E3181EEB6B94005E4207 /* Sources */,
 				5796E3191EEB6B94005E4207 /* Frameworks */,
 				5796E31A1EEB6B94005E4207 /* Resources */,
+				355A8885D5F60508D1DBF45B /* [CP] Embed Pods Frameworks */,
+				AE7AEE35E6CCE2093D5BA7AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5796E3361EEB6B95005E4207 /* Build configuration list for PBXNativeTarget "BradleyUITests" */;
 			buildPhases = (
+				425ECB99FC5E794B1E37504B /* [CP] Check Pods Manifest.lock */,
 				5796E3231EEB6B95005E4207 /* Sources */,
 				5796E3241EEB6B95005E4207 /* Frameworks */,
 				5796E3251EEB6B95005E4207 /* Resources */,
+				481DCBA2B83063F7BA87A505 /* [CP] Embed Pods Frameworks */,
+				D030E6B7EBC6CA771F46C233 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +336,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1692EF227E59E7033709EAF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bradley/Pods-Bradley-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355A8885D5F60508D1DBF45B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BradleyTests/Pods-BradleyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425ECB99FC5E794B1E37504B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		481DCBA2B83063F7BA87A505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BradleyUITests/Pods-BradleyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE7AEE35E6CCE2093D5BA7AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BradleyTests/Pods-BradleyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B173A48C4ECE638E85417CB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bradley/Pods-Bradley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D030E6B7EBC6CA771F46C233 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BradleyUITests/Pods-BradleyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C41C5AD0D635371F2D77E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F86A3B50A173E82B7A9E5A3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5796E3041EEB6B93005E4207 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57166E5B1EEF014E005B9803 /* AddVC.swift in Sources */,
+				57166E571EEE84C3005B9803 /* ProfileVC.swift in Sources */,
 				5796E30E1EEB6B93005E4207 /* ViewController.swift in Sources */,
+				57166E591EEEBFA9005B9803 /* CollCell.swift in Sources */,
+				57166E551EED4DB0005B9803 /* ComCell.swift in Sources */,
+				5796E33E1EEB76C2005E4207 /* CellBrad.swift in Sources */,
+				5796E33A1EEB6CA1005E4207 /* ExtraBradleys.swift in Sources */,
+				57166E4F1EEBF6E9005B9803 /* DirtyVC.swift in Sources */,
+				5796E33C1EEB6CE9005E4207 /* BradleyVC.swift in Sources */,
+				57166E511EEBFD21005B9803 /* DCEll.swift in Sources */,
+				57166E531EED4B6B005B9803 /* ComVC.swift in Sources */,
 				5796E30C1EEB6B93005E4207 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,32 +642,35 @@
 		};
 		5796E3311EEB6B95005E4207 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF577201A776DEA99AF5A611 /* Pods-Bradley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2TZS78LJ9K;
 				INFOPLIST_FILE = Bradley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notappenin.Bradley;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traveliqy;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5796E3321EEB6B95005E4207 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1A10AEBF2D7EE18AB1BFDD /* Pods-Bradley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2TZS78LJ9K;
 				INFOPLIST_FILE = Bradley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notappenin.Bradley;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traveliqy;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5796E3341EEB6B95005E4207 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E36FE4211FF67136894964 /* Pods-BradleyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +686,7 @@
 		};
 		5796E3351EEB6B95005E4207 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51539A056995F6859FC6F5B9 /* Pods-BradleyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +702,7 @@
 		};
 		5796E3371EEB6B95005E4207 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6500B5E756CBB015CA6726B0 /* Pods-BradleyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2TZS78LJ9K;
@@ -485,6 +717,7 @@
 		};
 		5796E3381EEB6B95005E4207 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D230A624EB0A57BEBC4067C6 /* Pods-BradleyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2TZS78LJ9K;
@@ -516,6 +749,7 @@
 				5796E3321EEB6B95005E4207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5796E3331EEB6B95005E4207 /* Build configuration list for PBXNativeTarget "BradleyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +758,7 @@
 				5796E3351EEB6B95005E4207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5796E3361EEB6B95005E4207 /* Build configuration list for PBXNativeTarget "BradleyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +767,7 @@
 				5796E3381EEB6B95005E4207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
